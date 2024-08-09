@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/assets.css" />
     <title>Gaming website</title>
+    <script src="/assets/JS/assets.js" defer></script>
   </head>
-  <body>
-    <header>
+  <body style="background-color: lavender;">
+    <header class="header">
       <h1>Gaming website</h1>
     </header>
     <nav class="nav">
@@ -16,14 +17,23 @@
       <a href="">contact</a>
       <a href="">categories</a>
     </nav>
-    <div class="search--">
-      <form action="/search" method="get"></form>
+    <div>
+      <h2 id="backup-search">Didn't find the results you wanted? Try here!</h2>
+      <br>
+      <br>
+      <br>
+      <div style="border: 2px solid  #fb53fd;">
+      <script async src="https://cse.google.com/cse.js?cx=6100189c1e3bd4113">
+      </script>
+      
+      <div class="gcse-search"></div>
+      </div>
       <input type="text" name="query" placeholder="search..." />
-      <button type="submit">search</button>
+      <button id="submit" type="submit">search</button>
     </div>
     <section class="image-section">
       <h1>big gaming image</h1>
-      <img src="images/gaming1.jpg" alt="" width="500px"" />
+      <!-- <img src="./assets/images/gaming1.jpg" alt="" width="500px" /> -->
       <p>welcome to our website</p>
     </section>
 
@@ -31,25 +41,25 @@
     <section class="game">
       <h2>popular Games</h2>
       <div class="game">
-        <img src="images/game1.jpg" alt="" />
+        <!-- <img src="images/game1.jpg" alt="" /> -->
         <h3>game 1</h3>
         <p>description of game 1</p>
         <button>play</button>
       </div>
       <div class="game">
-        <img src="images/game2.jpg" alt="" />
+        <!-- <img src="images/game2.jpg" alt="" /> -->
         <h3>game 2</h3>
         <p>description of game 2</p>
         <button>play</button>
       </div>
       <div class="game">
-        <img src="images/game3.jpg" alt="" />
+        <!-- <img src="images/game3.jpg" alt="" /> -->
         <h3>game 3</h3>
         <p>description of game 3</p>
         <button>play</button>
       </div>
        <div class="game">
-        <img src="images/game3.jpg" alt="" />
+        <!-- <img src="images/game3.jpg" alt="" /> -->
         <h3>game 4</h3>
         <p>description of game 3</p>
         <button>play</button>
