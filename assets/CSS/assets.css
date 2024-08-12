@@ -33,7 +33,7 @@ a:focus {
 }
 
 .gcse-search {
-    background-color: #333;
+    z-index: -1;
 }
 
 h3 {
