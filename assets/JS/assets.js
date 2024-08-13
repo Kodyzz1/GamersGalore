@@ -25,20 +25,3 @@ section.appendChild(resultsDiv);
 function clearResults() {
   resultsDiv.innerHTML = '';
 };
-
-submitBtn.addEventListener('click', async () => {
-  const result = await fetch(`https://api.rawg.io/api/games?key=${key}&search=${search.value}`);
-  const data = await result.json();
-
-  console.log(data);
-
-  // Clear previous results
-  clearResults();
-
-  // Display data in resultsDiv
-  data.results.forEach(game => {
-    const gameDiv = document.createElement('div');
-    gameDiv.textContent = game.name;
-    resultsDiv.appendChild(gameDiv);
-  });
-});
