@@ -5,18 +5,30 @@ header {
     text-align: center;
     margin-inline-end: auto;
 }
+
+#header-title {
+    color: lightblue;
+}
 /* Navigation */
 .nav {
     background-color: #3F2E97;
     padding: 10px;
     margin: 10px;
-};
+}
 
 
 
 .search {
     border: 1px solid purple;
     border-radius: 10px;
+}
+
+#backup-search {
+    display: inline-block;
+    text-align: center;
+    margin-left: 40%;
+    color: purple;
+    text-shadow: #fff 1px 1px 1px;
 }
 
 .gcse-search {
@@ -57,9 +69,39 @@ form {
     text-align: center;
     align-items: center;
 }
+
+
+
+img {
+    height: 400px;
+    display: inline-block;
+}
+
+#search-h3 {
+    margin-right: 10%;
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+    color: darkblue;
+    text-shadow: gray 1px 1px 1px;
+}
+
+.image-section {
+    margin-left: 40%;
+    color: black;
+    text-shadow: purple 1px 1px 1px;
+}
+
+.game {
+    margin-left: 40%;
+    color: black;
+    text-shadow: purple 1px 1px 1px;
+}
+
 input[type="text"] {
     padding: 5px;
     width: 200px;
+    margin-left: 40%;
 }
 button[type="submit"] {
     padding: 5px 10px;
