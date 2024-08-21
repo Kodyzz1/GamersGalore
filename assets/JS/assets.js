@@ -3,13 +3,13 @@ console.log(search);
 const submitBtn = document.getElementById('submit');
 
 const images1 = [
-"/fun-group-site/images/game-images/1 - 0ujsCZg.jpg",
-"/fun-group-site/images/game-images/1 - Z3d8JnW.jpg",
-"/fun-group-site/images/game-images/2 - hzmfj0d.jpg",
-"/fun-group-site/images/game-images/2 - Pj3j2aT.jpg",
-"/fun-group-site/images/game-images/3 - GVfCSKL.jpg",
-"/fun-group-site/images/game-images/3 - teGoarV.jpg",
-"/fun-group-site/images/game-images/4 - 38MMPB3.jpg",
+"./images/game-images/1.jpg",
+"./images/game-images/1 - Z3d8JnW.jpg",
+"./images/game-images/2 - hzmfj0d.jpg",
+"./images/game-images/2 - Pj3j2aT.jpg",
+"./images/game-images/3 - GVfCSKL.jpg",
+"./images/game-images/3 - teGoarV.jpg",
+"./images/game-images/4 - 38MMPB3.jpg",
 ];
 
 const imageContainer = document.getElementById('imageContainer');
